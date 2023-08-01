@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
-const addTopic = () => {
+const AddTopic = () => {
   const [title, setTitle] = useState("");
   const [description, setDesc] = useState("");
 
@@ -62,4 +62,4 @@ const addTopic = () => {
   );
 };
 
-export default addTopic;
+export default AddTopic;
